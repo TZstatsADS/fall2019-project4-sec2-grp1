@@ -42,7 +42,7 @@ Controlling Stochastic Gradient Descent Factorization Method and KNN Post-Proces
 Case 1: No Regularization Term
 	+ RMSE: 
 Case 2: Adding Regularization Term **Penalty of Magnitudes** to the algorithm
-	+ RMSE:
+	+ RMSE: $pi$
 Case 3: Adding Regularization Term **Bias and Intercepts + Temporal Dynamics** to the algorithm
 	+ RMSE:
 
