@@ -18,11 +18,25 @@ Term: Fall 2019
 	
 	Matrix factorization characterizes both items and users by vectors of factors inferred from item rating patterns.
 ![matrix_factorization](figs/matrix_factorization.png)
+
 	+ Steps: 
 		+ Step 1: Convert Data into **R** matrix 
+	
 		+ Step 2: Use the algorithm (with regularization term to train the data and get **U** AND **V** 
 		
-	Post-processing 
+			+ Case 1: No Regularization Term
+		
+			+ Case 2: Adding Regularization Term **Penalty of Magnitudes** to the algorithm
+		
+			+ Case 3: Adding Regularization Term **Bias and Intercepts + Temporal Dynamics** to the algorithm
+		
++ Post-processing with KNN (see doc/paper/P2 Recommender-Systems.pdf)
+
+	+ Steps: 
+		+ Step 1: Define similarity between movies *j* and *j2* as cosine similarity between vectors vj and vj2 obtained from regularized SVD:
+	
+		+ Step 2: 
+
 		
 Case 1: No Regularization Term
 	+ RMSE: 
