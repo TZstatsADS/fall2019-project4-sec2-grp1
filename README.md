@@ -4,8 +4,8 @@
 
 Term: Fall 2019
 
-+ Team #
-+ Projec title: Lorem ipsum dolor sit amet
++ Team # 1
++ Projec title: Comparing the effect of regularizations 
 + Team members
 	+ team member 1
 	+ team member 2
