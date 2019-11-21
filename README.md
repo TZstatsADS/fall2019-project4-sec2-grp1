@@ -26,9 +26,9 @@ Term: Fall 2019
 		
 			+ Case 1: No Regularization Term
 		
-			+ Case 2: Adding Regularization Term **Penalty of Magnitudes** to the algorithm
+			+ Case 2: Apply Regularization Term **Penalty of Magnitudes** to the algorithm
 		
-			+ Case 3: Adding Regularization Term **Bias and Intercepts + Temporal Dynamics** to the algorithm
+			+ Case 3: Apply Regularization Term **Bias and Intercepts + Temporal Dynamics** to the algorithm
 		
 + Post-processing with KNN (see doc/paper/P2 Recommender-Systems.pdf)
 
@@ -46,7 +46,10 @@ Case 3: Adding Regularization Term **Bias and Intercepts + Temporal Dynamics** t
 	+ RMSE:
 
 	
-**Contribution statement**: [default] All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
+**Contribution statement**: 
+	+ Abrams, Zack contributes nothing for this assignment. 
+	+ The other four team members contribute equally.
+	+ All team members approve our work presented in this GitHub repository including this contributions statement. 
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
