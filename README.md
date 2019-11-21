@@ -33,7 +33,7 @@ Term: Fall 2019
 + Post-processing with KNN (see doc/paper/P2 Recommender-Systems.pdf)
 
 	+ Steps: 
-		+ Step 1: Define similarity between movies *j* and *j2* as cosine similarity between vectors vj and vj2 obtained from regularized SVD:
+		+ Step 1: Define similarity between movies *j* and *j2* as cosine similarity between vectors *vj* and *vj2* obtained from regularized SVD:
 	
 		+ Step 2: 
 
