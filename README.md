@@ -23,13 +23,16 @@ Controlling Stochastic Gradient Descent Factorization Method and KNN Post-Proces
 	+ Steps: 
 		+ Step 1: Convert Data into **R** matrix 
 	
-		+ Step 2: Use the algorithm (with regularization term to train the data and get **U** AND **V** 
+		+ Step 2: Use the Stochastic Gradient Descent algorithm (with regularization term) to train the data and get **U** AND **V** 
+		![function1](figs/GDfunction.png)
 		
 			+ Case 1: No Regularization Term
 		
 			+ Case 2: Apply Regularization Term **Penalty of Magnitudes** to the algorithm
+			**Penalty of Magnitudes** : 
 		
 			+ Case 3: Apply Regularization Term **Bias and Intercepts + Temporal Dynamics** to the algorithm
+			**Bias and Intercepts + Temporal Dynamics**
 		
 + Post-processing with KNN (see doc/paper/P2 Recommender-Systems.pdf)
 
@@ -42,7 +45,7 @@ Controlling Stochastic Gradient Descent Factorization Method and KNN Post-Proces
 Case 1: No Regularization Term
 	+ RMSE: 
 Case 2: Adding Regularization Term **Penalty of Magnitudes** to the algorithm
-	+ RMSE: 
+	+ RMSE:
 Case 3: Adding Regularization Term **Bias and Intercepts + Temporal Dynamics** to the algorithm
 	+ RMSE:
 
