@@ -14,12 +14,22 @@ Term: Fall 2019
 	+ Zhou, Zian
 + Project summary: We are assigned to compare the effect of regularizations between 1) Penalty of Magnitudes and 2) Bias and Intercepts + Temporal Dynamics using the algorithm Stochastic Gradient Descent and KNN for post-processing.
 
++ Matrix Factorizaition Techniques For Recommender Systems (see doc/paper/P1 Recommender-Systems.pdf)
+	
+	Matrix factorization characterizes both items and users by vectors of factors inferred from item rating patterns.
+![matrix_factorization](figs/matrix_factorization.png)
+	+ Steps: 
+		+ Step 1: Convert Data into **R** matrix 
+		+ Step 2: Use the algorithm (with regularization term to train the data and get **U** AND **V** 
+		
+	Post-processing 
+		
 Case 1: No Regularization Term
-
+	+ RMSE: 
 Case 2: Adding Regularization Term **Penalty of Magnitudes** to the algorithm
-
+	+ RMSE:
 Case 3: Adding Regularization Term **Bias and Intercepts + Temporal Dynamics** to the algorithm
-
+	+ RMSE:
 
 	
 **Contribution statement**: [default] All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
