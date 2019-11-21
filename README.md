@@ -5,14 +5,22 @@
 Term: Fall 2019
 
 + Team # 1
-+ Projec title: Comparing the effect of regularizations 
++ Projec title: Comparing the effect of regularizations
 + Team members
-	+ team member 1
-	+ team member 2
-	+ team member 3
-	+ team member 4
-	+ team member 5
-+ Project summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	+ Abrams, Zack
+	+ Gao, Zun
+	+ Zhang, Qingyu
+	+ Zhao, Marshall
+	+ Zhou, Zian
++ Project summary: We are assigned to compare the effect of regularizations between 1) Penalty of Magnitudes and 2) Bias and Intercepts + Temporal Dynamics using the algorithm Stochastic Gradient Descent and KNN for post-processing.
+
+Case 1: No Regularization Term
+
+Case 2: Adding Regularization Term **Penalty of Magnitudes** to the algorithm
+
+Case 3: Adding Regularization Term **Bias and Intercepts + Temporal Dynamics** to the algorithm
+
+
 	
 **Contribution statement**: [default] All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
