@@ -64,7 +64,7 @@ Controlling Stochastic Gradient Descent Factorization Method and KNN Post-Proces
 + Result
 
 | Pairings      | Test RMSE  | Best Parameters |
-| ------------- |:-------------:| -----:|-----:|
+| ------------- |:-------------:| ------------:|
 | SGD      |   2.66   | F = 10, lambda = 0.1  |
 | SGD + Temporal Dynamics | | 2.71    | F = 10, lambda = 0.1   |
 | SGD + Penalty of Magnitudes + Bias and Intercepts | 2.80 | F = 10, lambda = 0.1  |
