@@ -67,7 +67,7 @@ Controlling Stochastic Gradient Descent Factorization Method and KNN Post-Proces
 | ------------- |:-------------:| -----:|-----:|
 | SGD + KNN     |       | 2.69    |   |
 | SGD + Temporal Dynamics + KNN| |      |  |   |
-| SGD + Penalty of Magnitudes + Bias and Intercepts + KNN| |      | 2.73   |   |
+| SGD + Penalty of Magnitudes + Bias and Intercepts + KNN|   |   2.73    |   |
 		
 
 + Dataset: [MovieLens](http://movielens.org) (see data/ml-latest-small)
