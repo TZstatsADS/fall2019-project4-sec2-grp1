@@ -31,13 +31,15 @@ Controlling Stochastic Gradient Descent Factorization Method and KNN Post-Proces
 		
 			+ Case 2: Apply Regularization Term **Temporal Dynamics** to the algorithm
 			
-			**Temporal Dynamics** : 
+			**Temporal Dynamics** (see doc/paper/P5 Collaborative Filtering with Temporal Dynamics.pdf): 
+			
+			The presented models have been static. In reality, product perception and popularity constantly change as new selections emerge. Similarly, customers’ inclinations evolve, leading them to redefine their taste. Thus, the system should account for the temporal effects reflecting the dynamic, time-drifting nature of user-item interactions.
 			
 			![td](figs/td.png)
 		
 			+ Case 3: Apply Regularization Term **Bias and Intercepts + Penalty of Magnitudes** to the algorithm
 			
-			**Penalty of Magnitudes** :
+			**Penalty of Magnitudes** (see doc/paper/P1 Recommender-Systems.pdf) :
 			
 			![PM](figs/PM.png)
 					
@@ -47,10 +49,8 @@ Controlling Stochastic Gradient Descent Factorization Method and KNN Post-Proces
 			
 			![bias](figs/bias.png)
 			
-			The bias involved in rating rui is denoted by bui and accounts for the user and item effects. The overall average rating is denoted by μ; the parameters bu and bi indicate the observed deviations of user u and item i, respectively, from the average.
-			
-			
-		
+			The bias involved in rating r<sub>ui</sub> is denoted by b<sub>ui</sub> and accounts for the user and item effects. 
+					
 + Post-processing with KNN (see doc/c/P2 Recommender-Systems.pdf)
 
 	+ Steps: 
