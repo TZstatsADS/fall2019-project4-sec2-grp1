@@ -29,12 +29,25 @@ Controlling Stochastic Gradient Descent Factorization Method and KNN Post-Proces
 			+ Case 1: No Regularization Term
 		
 			+ Case 2: Apply Regularization Term **Penalty of Magnitudes** to the algorithm
+			
 			**Penalty of Magnitudes** : 
+			
+			![PM](figs/PM.png)
 		
 			+ Case 3: Apply Regularization Term **Bias and Intercepts + Temporal Dynamics** to the algorithm
-			**Bias and Intercepts + Temporal Dynamics**
+			
+			**Bias and Intercepts** :
+			
+			The observed variation in rating values is due to effects associated with either users or items, known as biases or intercepts, independent of any interactions.
+			
+			![bias](figs/bias.png)
+			
+			**Temporal Dynamics** :
+			
+			![td](figs/td.png)
+			
 		
-+ Post-processing with KNN (see doc/paper/P2 Recommender-Systems.pdf)
++ Post-processing with KNN (see doc/c/P2 Recommender-Systems.pdf)
 
 	+ Steps: 
 		+ Step 1: Define similarity between movies *j* and *j2* as cosine similarity between vectors *vj* and *vj2* obtained from regularized SVD:
