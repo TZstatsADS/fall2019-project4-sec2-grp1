@@ -29,28 +29,26 @@ Controlling Stochastic Gradient Descent Factorization Method and KNN Post-Proces
 		
 			+ Case 1: No Regularization Term
 		
-			+ Case 2: Apply Regularization Term **Penalty of Magnitudes** to the algorithm
+			+ Case 2: Apply Regularization Term **Temporal Dynamics** to the algorithm
 			
-			**Penalty of Magnitudes** : 
+			**Temporal Dynamics** : 
+			
+			![td](figs/td.png)
+		
+			+ Case 3: Apply Regularization Term **Bias and Intercepts + Penalty of Magnitudes** to the algorithm
+			
+			**Penalty of Magnitudes** :
 			
 			![PM](figs/PM.png)
-		
-			+ Case 3: Apply Regularization Term **Bias and Intercepts + Temporal Dynamics** to the algorithm
-			
+					
 			**Bias and Intercepts** :
 			
 			The observed variation in rating values is due to effects associated with either users or items, known as biases or intercepts, independent of any interactions.
 			
 			![bias](figs/bias.png)
 			
-			The bias involved in rating rui is denoted by bui and accounts for the user and item effects. The overall average
-rating is denoted by μ; the parameters bu and bi indicate
-the observed deviations of user u and item i, respectively,
-from the average.
+			The bias involved in rating rui is denoted by bui and accounts for the user and item effects. The overall average rating is denoted by μ; the parameters bu and bi indicate the observed deviations of user u and item i, respectively, from the average.
 			
-			**Temporal Dynamics** :
-			
-			![td](figs/td.png)
 			
 		
 + Post-processing with KNN (see doc/c/P2 Recommender-Systems.pdf)
@@ -63,22 +61,14 @@ from the average.
 	
 		+ Step 2: We use prediction by k nearest neighbor using similarity s and refer to this method as ”SVD KNN. In this case, we chose one nearest neighbor. 
 
-+ Result		
++ Result
+
+| Pairings      | Train RMSE           | Test RMSE  | Best Parameters |
+| ------------- |:-------------:| -----:|-----:|
+| SGD + KNN     |       | 2.69    |   |
+| SGD + Temporal Dynamics + KNN| |      |  |   |
+| SGD + Penalty of Magnitudes + Bias and Intercepts + KNN| |      | 2.73   |   |
 		
-Pairings | Train RMSE | Test RMSE | Best Parameters 
------------- | -------------
-SGD | Train RMSE | Test RMSE | Best Parameters 
-SGD + KNN | Train RMSE | Test RMSE | Best Parameters 
-SGD + | Train RMSE | Test RMSE | Best Parameters 
-Content in the first column | Content in the second column
-
-
-Case 1: No Regularization Term
-	+ RMSE: 
-Case 2: Adding Regularization Term **Penalty of Magnitudes** to the algorithm
-	+ RMSE:
-Case 3: Adding Regularization Term **Bias and Intercepts + Temporal Dynamics** to the algorithm
-	+ RMSE:
 
 + Dataset: [MovieLens](http://movielens.org) (see data/ml-latest-small)
 	
